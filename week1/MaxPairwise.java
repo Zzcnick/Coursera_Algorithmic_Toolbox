@@ -7,7 +7,8 @@ import java.util.Scanner;
 
 class MaxPairwise {
     public static void main(String[] args) {
-	int max1, max2, count; // Largest 2 Numbers, # of Integers
+	long max1, max2; // Largest 2 Numbers
+	int count; // # of inputs
 	Scanner sc = new Scanner(System.in);
 	count = sc.nextInt();
 	int[] nums = new int[count]; // Array of inputs
